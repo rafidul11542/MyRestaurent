@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3D9EA"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="About Me"
+            android:textColor="@color/purple_700"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:fontFamily="casual"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rafid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:text="Md. Rafidul Hasan Khan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_18sdp"
+            android:text="182-15-11542"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:text="My name is Md. Rafidul Hasan Khan, and I am a 3rd year student of Daffodil International University Department of Computer Science And Engineering.I can completely use my ability to coming out of the box, critical thinking, Problem-solving to make an important expansion to the association alongside lifting my profession. Done all of my work with punctuality and sincerity. My current research focuses on Bengali Text Analysis, Text Processing using Machine Learning, Deep Learning and Natural Language Processing."/>
+
+        <Button
+            android:id="@+id/gth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gth"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="#6300BCD4"
+            android:layout_gravity="center"
+            android:text="Go to Home"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

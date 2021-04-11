@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/_22sdp"
+            android:textColor="#ED103ECA"
+            android:text="Eat and Repeat"/>
+
+        <Button
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_125sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:onClick="about"
+            android:background="@drawable/own" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_190sdp"
+        android:onClick="appetizer"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:backgroundTint="#3194B4E8"
+        android:text="Fast Food"/>
+
+    <Button
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="mainCourse"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:backgroundTint="#3194B4E8"
+        android:text="Bangaliana"/>
+
+    
+</LinearLayout>
